@@ -50,7 +50,7 @@ def get_json_data(data):
 
 def get_KGQA_answer(array):
     data_array = []
-    for i in range(len(array)-2):
+    for i in range(len(array)-1):
         if i == 0:
             name = array[0]
         else:

@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from neo_db.query_graph import query, get_KGQA_answer, get_answer_profile
-from KGQA.ltp import get_target_array
+from KGQA.ltp_array import get_target_array
 app = Flask(__name__)
 
 
