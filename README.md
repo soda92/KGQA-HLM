@@ -10,6 +10,7 @@
 
 文件树:
 
+```txt
 1) app.py是整个系统的主入口
 2) templates文件夹是HTML的页面
      |-index.html 欢迎界面
@@ -27,17 +28,16 @@
 7) spider文件夹是爬虫模块
      |- get_*.py 是之前爬取人物资料的代码，已经产生好images和json 可以不用再执行
      |-show_profile.py 是调用人物资料和图谱展示在前端的代码
+```
 
 --------
 
 部署步骤：
 
-* 0.安装所需的库 执行pip install -r requirement.txt
+* `pip install -r requirements.txt`
 * 1.先下载好neo4j图数据库，并配好环境（注意neo4j需要jdk8）。修改neo_db目录下的配置文件config.py,设置图数据库的账号和密码。
-* 2.python neo_db/create_graph.py 建立知识图谱
-* 3.去 [这里](http://pyltp.readthedocs.io/zh_CN/latest/api.html#id2) 下载好ltp模型。[ltp简介](http://ltp.ai/)
-* 4.在KGQA目录下，修改ltp.py里的ltp模型文件的存放目录
-* 5.运行python app.py,浏览器打开localhost:5000即可查看
+* 2.`python neo_db/create_graph.py` 建立知识图谱
+* 5.运行`python app.py`,浏览器打开[localhost:5000](http://localhost:5000)即可查看
 
 系统整体流程图：
 
@@ -58,4 +58,5 @@
 
 ![界面](res/5.png)
 
+搜索“贾宝玉的爸爸的爸爸的爸爸的兄弟的儿子的儿子的儿子的儿子的老婆”
 ![界面](res/6.png)
