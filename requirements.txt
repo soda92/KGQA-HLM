@@ -1,4 +1,4 @@
 flask
 py2neo
-pyltp
+ltp
 bs4
