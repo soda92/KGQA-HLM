@@ -8,8 +8,6 @@
 [![Lisence](https://img.shields.io/badge/lisence-MIT-pink.svg)](https://github.com/chizhu/KGQA_HLM)
 [![Lisence](https://img.shields.io/badge/lisence-Anti996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-* ~~详情请见 [http://chizhunlp.com](http://111.230.92.110/)~~
-
 文件树:
 
 1) app.py是整个系统的主入口
@@ -43,21 +41,21 @@
 
 系统整体流程图：
 
-![流程](https://github.com/chizhu/KGQA_HLM/blob/master/%E5%9B%BE%E7%89%87%201.png)
+![流程](res/图片%201.png)
 
 网站示例:
 欢迎界面
 
-![欢迎界面](https://github.com/chizhu/KGQA_HLM/blob/master/1.png)
+![欢迎界面](res/1.png)
 
 主界面
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/2.png)
+![界面](res/2.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/3.png)
+![界面](res/3.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/4.png)
+![界面](res/4.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/5.png)
+![界面](res/5.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/6.png)
+![界面](res/6.png)
